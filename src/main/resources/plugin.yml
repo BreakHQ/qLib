@@ -1,0 +1,6 @@
+name: qLib
+version: ${git.commit.id.abbrev}
+author: ${minehq.pluginAuthor}
+main: net.frozenorb.qlib.qLib
+softdepend: [ ProtocolLib ]
+load: STARTUP
